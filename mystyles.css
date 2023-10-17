@@ -1,0 +1,37 @@
+
+.navbar-brand{
+    padding-right: 15px;
+}
+.brand-red {
+    color: #CC0E0E;
+}
+.btn-primary{
+    background-color: rgb(31, 31, 31);
+}
+
+.btn-primary:hover {
+    background-color: #0e11cc ;
+   
+    
+}
+.social{
+    display: flex;
+    gap: 1rem;
+}
+.h1{
+    line-height: 120%;
+}
+.footer-wht{
+    padding-top: 3rem;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .container {
+        align-content: center; /* Align content to the left on smaller screens */
+    }
+
+    .navbar-bg-body-tertiary {
+        max-width: 100%; /* Adjust logo width for smaller screens if needed */
+    }
+}
+
