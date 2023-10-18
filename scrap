@@ -1,0 +1,14 @@
+ <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <h1 class="logo-font-big">DIGITAL REMITTANCES</h1>
+            <p class="logo-font-small">Unbanked | Underbanked | Highly Regulated Industries</p>
+            </a>
+        </div>
+      </nav>
+      <a class="navbar-brand" href="#">
+        <img src="DRlogo.svg"  alt="">
+      </a>
+      <a class="navbar-brand" href="#">
+        <img src="DRlogo.svg"  alt="">
+      </a>
