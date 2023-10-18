@@ -1,6 +1,13 @@
 
+font-family: 'Krona One', sans-serif;
+font-family: 'Lekton', sans-serif;
+
+
+
 .navbar-brand{
     padding-right: 15px;
+    max-width: 100%;
+    display: flex;
 }
 .brand-red {
     color: #CC0E0E;
@@ -26,12 +33,36 @@
     text-align: center;
 }
 @media (max-width: 768px) {
+    .body{
+        align-items: center;
+    }
     .container {
+        max-width: 100%;
         align-content: center; /* Align content to the left on smaller screens */
     }
 
     .navbar-bg-body-tertiary {
         max-width: 100%; /* Adjust logo width for smaller screens if needed */
     }
+    .navbar-brand{
+        padding-right: 15px;
+        max-width: 100%;
+    }
 }
 
+.logo-font-big{
+    font-family: Krona One; 
+    font-weight: 400;
+    font-size: 1.25em;
+}
+.logo-font-small{
+    font-family: Krona One;
+    font-weight: 400;
+    color: gray;
+    font-size: .5em;
+    
+}
+.container img{
+    height: 100%;
+    width: 100%;
+}
